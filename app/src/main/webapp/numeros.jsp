@@ -8,7 +8,9 @@
 </head>
     <body>
         <c:forEach var="item" begin="1" end="20" step="1">
-            ${item} <br />
+            <c:if test="${(item % 3) == 0}">
+                ${item} <br />
+            </c:if>
         </c:forEach>
     </body>
 </html>
