@@ -36,6 +36,6 @@
         <c:forEach var="num" items="${tabuada}">
             <li>${num}</li>
         </c:forEach>
-         </ul>
+        </ul>
     </body>
 </html>
